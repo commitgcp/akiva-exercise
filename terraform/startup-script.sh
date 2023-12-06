@@ -13,7 +13,7 @@ su - appadmin -c "touch ~/.bash_profile"
 su - appadmin -c "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash"
 sleep 5
 sudo apt -y install npm
-su - appadmin -c "git clone https://github.com/commitgcp/okta-nodejs-postgres-weight-tracker-example.git ~/app/"
+su - appadmin -c "git clone https://github.com/commitgcp/akiva-exercise.git ~/app/"
 su - appadmin -c "cd ~/app/ && npm install"
 sleep 20
 su - appadmin -c "wget https://storage.googleapis.com/cloud-sql-connectors/cloud-sql-proxy/v2.0.0/cloud-sql-proxy.linux.amd64 \
